@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   StyleSheet, Text, View, ScrollView, Image, 
   SafeAreaView, TouchableOpacity, Dimensions, Platform, StatusBar,
-  Linking // Required to open browser
+  Linking
 } from 'react-native';
 
 const { width } = Dimensions.get('window');
@@ -25,7 +25,6 @@ const Article = ({ post, authorPhoto, onBack }) => {
   };
 
   const renderTextWithLinks = (text) => {
-    // Regex to find URLs
     const urlRegex = /(https?:\/\/[^\s]+)/g;
     const parts = text.split(urlRegex);
 
