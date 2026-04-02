@@ -71,7 +71,7 @@ export default function App() {
         />
       </View>
 
-      {/* ARTICLE view overlay */}
+     
       {currentPost && (
         <Article 
           post={currentPost.post} 
@@ -80,7 +80,7 @@ export default function App() {
         />
       )}
 
-      {/* ABOUT and CONTACT screens */}
+      
       {view === 'ABOUT' && <About onOpenMenu={() => setMenuVisible(true)} />}
       {view === 'CONTACT' && <Contact onOpenMenu={() => setMenuVisible(true)} />}
     </View>
