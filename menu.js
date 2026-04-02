@@ -56,17 +56,17 @@ const SideMenu = ({ visible, onClose, setView, currentView }) => {
           </View>
 
           <View style={styles.navLinks}>
-            {/* HOME Section */}
+          
             <TouchableOpacity onPress={() => { setView('HOME'); onClose(); }}>
               <Text style={getLinkStyle('HOME')}>HOME</Text>
             </TouchableOpacity>
 
-            {/* ABOUT Section */}
+            
             <TouchableOpacity onPress={() => { setView('ABOUT'); onClose(); }}>
               <Text style={getLinkStyle('ABOUT')}>ABOUT</Text>
             </TouchableOpacity>
 
-            {/* CONTACT Section */}
+          
             <TouchableOpacity onPress={() => { setView('CONTACT'); onClose(); }}>
               <Text style={getLinkStyle('CONTACT')}>CONTACT</Text>
             </TouchableOpacity>
