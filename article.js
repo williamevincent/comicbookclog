@@ -151,7 +151,6 @@ const styles = StyleSheet.create({
     fontWeight: '400',
     textAlign: 'left'
   },
-  // Added link style
   linkText: {
     color: '#FFD700',
     textDecorationLine: 'underline',
