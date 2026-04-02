@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Comic Book Clog",
+    "slug": "cbc-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cbcfeed.app",
+      "userInterfaceStyle": "dark",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "UIViewControllerBasedStatusBarAppearance": false,
+        "UIStatusBarStyle": "UIStatusBarStyleLightContent"
+      }
+    },
+    "android": {
+      "package": "com.cbcfeed.app",
+      "versionCode": 2,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f56878a7-ca44-4ecd-a7fc-34534587908f"
+      }
+    }
+  }
+}

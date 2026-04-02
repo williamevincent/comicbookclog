@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425960234801",
+    "project_id": "cbcscraper15",
+    "storage_bucket": "cbcscraper15.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425960234801:android:dfca44fa8220d476f95a10",
+        "android_client_info": {
+          "package_name": "com.cbcfeed.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLNf35JGM7aKKcE6yt-cj02Ku-ys5vAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
